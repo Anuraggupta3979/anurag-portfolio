@@ -132,7 +132,7 @@ export const educationInfo = [
   },
   {
     schoolName: "Ashok Mahan School, Lalsot",
-    subHeader: "13th",
+    subHeader: "12th",
     duration: "July 2017 - April 2018",
     desc: "Board of Secondary Education, Rajasthan",
     descBullets: ["85%"],
@@ -142,17 +142,17 @@ export const educationInfo = [
     schoolName: "MBM University, Jodhpur",
     subHeader: "B.E in Information Technology",
     duration: "August 2019 ",
-    // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //  desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
     descBullets: ["CGPA - 9.4"],
   },
 ];
 
 export const experience = [
   {
-    role: "Software Engineer",
-    company: "Google",
+    role: "Technical Team Head and Core Team Member",
+    company: "Google DSC",
     companylogo: "/img/icons/common/google.svg",
-    date: "June 2018 – Present",
+    date: "June 2021 – Present",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     descBullets: [
       "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -160,18 +160,18 @@ export const experience = [
     ],
   },
   {
-    role: "Front-End Developer",
-    company: "Github",
-    companylogo: "/img/icons/common/github.svg",
-    date: "May 2017 – May 2018",
-    desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    role: "Developer Intern at CreateBytes",
+    company: "CreateBytes",
+    companylogo: "/img/icons/common/createbytes.svg",
+    date: "Sept 2021 – Present",
+    desc: "Lorem ipsum dolor  sit amet, consefdctetur adipiscing elitsit amet, consefdctetur adipiscing eli, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    role: "Software Engineer Intern",
-    company: "Airbnb",
-    companylogo: "/img/icons/common/airbnbLogo.png",
-    date: "Jan 2015 – Sep 2015",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    role: "Web  Development and version control Tranning",
+    company: "Udemy",
+    companylogo: "/img/icons/common/udemy3.jpg",
+    date: "Jan 2021 – Sep 2021",
+    desc: "Lorem ipsum dolor sit amet,   labore et dolore magna aliqua. Lorem consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
   },
 ];
 
