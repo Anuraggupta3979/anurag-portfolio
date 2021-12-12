@@ -132,7 +132,7 @@ export const educationInfo = [
   },
   {
     schoolName: "Ashok Mahan School, Lalsot",
-    subHeader: "12th",
+    subHeader: "13th",
     duration: "July 2017 - April 2018",
     desc: "Board of Secondary Education, Rajasthan",
     descBullets: ["85%"],
