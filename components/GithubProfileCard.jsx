@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Col, Row, Container } from "reactstrap";
+import { Card, Col, Row, Container, NavItem, NavLink } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 
@@ -10,7 +10,94 @@ const GithubProfileCard = ({ prof }) => {
       <Container className="">
         <div className="p-2">
           <Row className="">
-            <Col className="order-lg-2" lg="4">
+            <Col className="order-lg-1" lg="4">
+              <h5 style={{ color: "white" }}>Reach Out to Me</h5>
+              <hr />
+              <p style={{ color: "white" }}>
+                <a
+                  className="mail-icon"
+                  href="https://www.google.co.in/maps/place/New+Colony,+Lalsot,+Rajasthan+303503/@26.5607949,76.3250372,18z/data=!3m1!4b1!4m5!3m4!1s0x396dfc524afec21f:0x956da7d6c2a6b175!8m2!3d26.5608457!4d76.3264611"
+                  target="_blank"
+                >
+                  {/* {prof.location} */}
+                  <i className="ni ni-pin-3  mr-2" /> Behind Rest House, New
+                  Colony Lalsot, 303503, Rajasthan
+                </a>
+              </p>
+              <hr />
+              <a href="tel:7232013979" className="mail-icon mb-5">
+                <i class="fa fa-phone"></i> +91-7232013979
+              </a>
+              <br />
+              <a
+                href="mailto: anuraggupta3979@gmail.com"
+                className="mail-icon mt-5"
+              >
+                <i class="fa fa-envelope-open"></i> anuraggupta3979@gmail.com
+              </a>
+              <hr />
+              <SocialLinks></SocialLinks>
+            </Col>
+            <Col className="order-lg-2" lg="1"></Col>
+            <Col className="order-lg-2" lg="3">
+              <h5
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  //   fontFamily: "Augestina",
+                }}
+              >
+                More
+              </h5>
+              <hr />
+              <>
+                <NavLink
+                  rel="noopener"
+                  aria-label="mail"
+                  className="nav-link-icon text-center"
+                >
+                  <a href="/" className="mail-icon text-center">
+                    <i class="fa fa-home"></i> HOME
+                  </a>
+                </NavLink>
+              </>
+
+              <NavLink
+                rel="noopener"
+                aria-label="mail"
+                className="nav-link-icon text-center"
+              >
+                <a href="/" className="mail-icon">
+                  <i class="fa fa-file"></i> Certificates
+                </a>
+              </NavLink>
+            </Col>
+            <Col className="order-lg-2" lg="1"></Col>
+            <Col className="order-lg-2" lg="3">
+              <h5
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  fontFamily: "Augestina",
+                }}
+              >
+                That's Me
+              </h5>
+              <hr />
+              <img
+                src={prof.avatar_url}
+                style={{ width: "200px" }}
+                alt=""
+                className="rounded-circle img-center   mb-4"
+              />
+              <h5 className="text-center mb-2">
+                <strong style={{ color: "white", }}>Anurag Gupta</strong>
+              </h5>
+              <p style={{ color: "white" }} className="text-center">
+                Full Stack Developer
+              </p>
+            </Col>
+            {/* <Col className="order-lg-2" lg="4">
               <img
                 src={prof.avatar_url}
                 style={{ width: "200px" }}
@@ -35,7 +122,7 @@ const GithubProfileCard = ({ prof }) => {
                 </a>
               </div>
               <SocialLinks />
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </Container>

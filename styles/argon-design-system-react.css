@@ -19,7 +19,7 @@
   font-family: Augestina;
   src: url("/fonts/Agustina.otf");
 }
-.imageCard{
+.imageCard {
   border-radius: 100px;
 }
 #nav-title {
@@ -20484,7 +20484,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .headroom--not-top {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #54a6eb !important;
+  background-color: #11cdef !important;
   box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1);
 }
 
