@@ -75,6 +75,39 @@ const Navigation = () => {
                 <NavItem>
                   <NavLink
                     rel="noopener"
+                    aria-label="mail"
+                    className="nav-link-icon"
+                  >
+                    <a href="tel:7232013979" className="mail-icon">
+                      <i class="fa fa-phone"></i>
+                    </a>
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      +91-7232013979
+                    </span>
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    rel="noopener"
+                    aria-label="mail"
+                    className="nav-link-icon"
+                    // href="anuraggupta3979.gmail.com"
+                  >
+                    <a
+                      href="mailto: anuraggupta3979@gmail.com"
+                      className="mail-icon"
+                    >
+                      <i class="fa fa-envelope-open"></i>
+                    </a>
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      anuraggupta3979@gmail.com
+                    </span>
+                  </NavLink>
+                </NavItem>
+
+                <NavItem>
+                  <NavLink
+                    rel="noopener"
                     aria-label="Github"
                     className="nav-link-icon"
                     href={socialLinks.github}
