@@ -19,7 +19,9 @@
   font-family: Augestina;
   src: url("/fonts/Agustina.otf");
 }
-
+.imageCard{
+  border-radius: 100px;
+}
 #nav-title {
   font-family: Augestina;
   text-transform: capitalize;

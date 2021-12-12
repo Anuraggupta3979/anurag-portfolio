@@ -33,13 +33,14 @@ const ExperienceCard = ({ data }) => {
           <CardBody className="py-5">
             <div
               className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-              style={{ width: "100px", height: "100px" }}
+              style={{ width: "100px", height: "100px", borderRadius: "100px" }}
             >
               <Image
                 src={data.companylogo}
                 width={"100px"}
                 height={"100px"}
                 borderRadius={"100px"}
+                className="imageCard"
                 alt={data.companylogo}
               />
             </div>
