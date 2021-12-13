@@ -12,8 +12,8 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="">
                 <h3>{data.name}</h3>
-                <p className="description mt-3">{data.desc}</p>
-
+                <h6 className="description mt-3">{data.desc}</h6>
+                
                 <a
                   className="btn-icon"
                   color="github"
