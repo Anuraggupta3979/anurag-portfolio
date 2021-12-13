@@ -13,14 +13,6 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="">
                 <h3>{data.name}</h3>
-                {/* <Image
-                  src={data.vector}
-                  height={"100%"}
-                  width={"100%"}
-                  className="cardImage"
-                  alt="projectImage"
-                /> */}
-                {/* <img src={data.vector} alt="" className="card-img" /> */}
                 <p className="description mt-3">{data.desc}</p>
 
                 {data.github ? (
