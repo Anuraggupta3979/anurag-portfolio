@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
-  console.log(data)
+  console.log(data);
   return (
     <Col lg="6">
       <Fade left duration={1000} distance="40px">
@@ -12,9 +12,6 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="">
                 <h3>{data.name}</h3>
-                <p className="description mt-3">{data.desc}</p>
-
-               
               </div>
             </div>
           </CardBody>
