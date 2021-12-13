@@ -110,9 +110,25 @@ export const projects = [
     name: "Foodmeel",
     description:
       "L dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://anurag-gupta.ml",
+    github: "https://github.com/Anuraggupta3979/Anurag-food-meal",
     link: "https://anurag-gupta.ml",
     vector: "/img/icons/common/food.png",
+  },
+  {
+    name: "Bank User App",
+    description:
+      "L dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/ANURAG-GUPTA.github.io",
+    link: "https://anuraggupta3979.github.io/ANURAG-GUPTA.github.io/",
+    vector: "/img/icons/common/bankuser.png",
+  },
+  {
+    name: "Bankit Website",
+    description:
+      "L dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/ANURAG-GUPTA.github.io",
+    link: "https://anuraggupta3979.github.io/ANURAG-GUPTA.github.io/",
+    vector: "/img/icons/common/bankit.png",
   },
   {
     name: "Chat app",
@@ -134,7 +150,7 @@ export const projects = [
     name: "Mapbox",
     description:
       "Lorem ipsum dolor sit amet,  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://anurag-gupta.ml",
+    github: "https://github.com/Anuraggupta3979/mapbox",
     link: "https://anurag-gupta.ml",
     vector: "/img/icons/common/mapbox.png",
   },
@@ -142,8 +158,8 @@ export const projects = [
     name: "Pig Game",
     description:
       "Lorem ipsum  sit amet, cctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-    github: "https://anurag-gupta.ml",
-    link: "https://anurag-gupta.ml",
+    github: "https://github.com/Anuraggupta3979/pigGame.github.io",
+    link: "https://anuraggupta3979.github.io/pigGame.github.io/",
     vector: "/img/icons/common/piggame.png",
   },
   {
@@ -161,5 +177,33 @@ export const projects = [
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
     vector: "/img/icons/common/love.png",
+  },
+  {
+    name: "Dance Academy",
+    description:
+      "Loem ipsm door st amet, consctetur aipising eit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/dancewebsite",
+    vector: "/img/icons/common/dance.png",
+  },
+  {
+    name: "Fitness GYM",
+    description:
+      "Loem ipsm door st amet, consctetur aipising eit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/gym",
+    vector: "/img/icons/common/gym.png",
+  },
+  {
+    name: "Calculator",
+    description:
+      "Loem ipsm door st amet, consctetur aipising eit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/gym",
+    vector: "/img/icons/common/calculator.png",
+  },
+  {
+    name: "Dicazo Coaching Institute",
+    description:
+      "Loem ipsm door st amet, consctetur aipising eit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://github.com/Anuraggupta3979/gym",
+    vector: "/img/icons/common/dicazo.png",
   },
 ];
