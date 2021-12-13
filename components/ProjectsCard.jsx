@@ -20,7 +20,7 @@ const ProjectsCard = ({ data }) => {
                   className="cardImage"
                   alt="projectImage"
                 /> */}
-                <img src={data.vector} alt="" className="card-img" />
+                {/* <img src={data.vector} alt="" className="card-img" /> */}
                 <p className="description mt-3">{data.desc}</p>
 
                 {data.github ? (
