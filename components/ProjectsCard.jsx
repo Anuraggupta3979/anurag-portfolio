@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, Col } from "reactstrap";
+import { Card, CardBody, Col,Button } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
@@ -18,7 +18,7 @@ const ProjectsCard = ({ data }) => {
                   alt="ProjectImage"
                   className="card-img"
                 />
-                <a
+                <Button
                   className="btn-icon"
                   color="github"
                   href={data.github}
@@ -29,9 +29,9 @@ const ProjectsCard = ({ data }) => {
                   <span className="btn-inner--icon">
                     <i className="fa fa-github" />
                   </span>
-                </a>
+                </Button>
 
-                <a
+                <Button
                   className="btn-icon"
                   color="success"
                   href={data.link}
@@ -43,7 +43,7 @@ const ProjectsCard = ({ data }) => {
                     <i className="fa fa-arrow-right mr-2" />
                   </span>
                   <span className="nav-link-inner--text ml-1">Demo</span>
-                </a>
+                </Button>
               </div>
             </div>
           </CardBody>
