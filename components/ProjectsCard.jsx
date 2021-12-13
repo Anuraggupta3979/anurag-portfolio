@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
@@ -13,7 +13,12 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="">
                 <h3>{data.name}</h3>
-                <img src={data.vector} alt="" className="card-img" />
+                <Image
+                  src={data.vector}
+                  className="imageCard"
+                  alt="projectImage"
+                />
+                {/* <Image src={vector} alt="" className="card-img" /> */}
                 <p className="description mt-3">{data.desc}</p>
 
                 {data.github ? (
