@@ -69,7 +69,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/fbclone.png",
   },
   {
     name: "Spotify Clone",
@@ -85,7 +85,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/zoom.png",
   },
 
   {
@@ -94,7 +94,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna iqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/igreels.png",
   },
 
   {
@@ -103,7 +103,7 @@ export const projects = [
       "Lem ipm dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/foodDelivery.png",
   },
 
   {
@@ -112,7 +112,7 @@ export const projects = [
       "L dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/food.png",
   },
   {
     name: "Chat app",
@@ -120,7 +120,7 @@ export const projects = [
       "orem  dolor  amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/chat.png",
   },
   {
     name: "Guess Number Game",
@@ -136,7 +136,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet,  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml",
-    vector: "/img/icons/common/portfolio.png",
+    vector: "/img/icons/common/mapbox.png",
   },
   {
     name: "Pig Game",
