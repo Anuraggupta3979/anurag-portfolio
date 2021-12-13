@@ -12,6 +12,7 @@ const ProjectsCard = ({ data }) => {
             <div className="d-flex px-3">
               <div className="">
                 <h3>{data.name}</h3>
+                <p className="description mt-3">{data.desc}</p>
 
                 <a
                   className="btn-icon"
