@@ -8,7 +8,14 @@ const ProjectsCard = ({ data }) => {
     <Col lg="6">
       <Fade left duration={1000} distance="40px">
         <Card className="shadow-lg--hover shadow mt-4">
-          <CardBody>anurag</CardBody>
+          <CardBody>
+            <div className="d-flex px-3">
+              <div className="">
+                <h3>{data.name}</h3>
+                <p className="description mt-3">{data.desc}</p>
+              </div>
+            </div>
+          </CardBody>
         </Card>
       </Fade>
     </Col>
