@@ -179,18 +179,21 @@ export const projects = [
   {
     name: "MBM University Website",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml/",
     vector: "/img/icons/common/mbm.png",
   },
   {
     name: "PortFolio",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://anurag-gupta.ml",
     link: "https://anurag-gupta.ml/",
     vector: "/img/icons/common/portfolio.png",
   },
   {
     name: "The CraftJet",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    github: "https://anurag-gupta.ml",
     link: "https://thecraftjet.ml",
     vector: "/img/icons/common/craftjet.png",
   },

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, Col, Button } from "reactstrap";
+import { Card, CardBody, Col } from "reactstrap";
 import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
@@ -13,35 +13,32 @@ const ProjectsCard = ({ data }) => {
               <div className="">
                 <h3>{data.name}</h3>
 
-                {data.github ? (
-                  <Button
-                    className="btn-icon"
-                    color="github"
-                    href={data.github}
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Github"
-                  >
-                    <span className="btn-inner--icon">
-                      <i className="fa fa-github" />
-                    </span>
-                  </Button>
-                ) : null}
-                {data.link ? (
-                  <Button
-                    className="btn-icon"
-                    color="success"
-                    href={data.link}
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="Twitter"
-                  >
-                    <span className="btn-inner--icon">
-                      <i className="fa fa-arrow-right mr-2" />
-                    </span>
-                    <span className="nav-link-inner--text ml-1">Demo</span>
-                  </Button>
-                ) : null}
+                <a
+                  className="btn-icon"
+                  color="github"
+                  href={data.github}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Github"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-github" />
+                  </span>
+                </a>
+
+                <a
+                  className="btn-icon"
+                  color="success"
+                  href={data.link}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Twitter"
+                >
+                  <span className="btn-inner--icon">
+                    <i className="fa fa-arrow-right mr-2" />
+                  </span>
+                  <span className="nav-link-inner--text ml-1">Demo</span>
+                </a>
               </div>
             </div>
           </CardBody>
