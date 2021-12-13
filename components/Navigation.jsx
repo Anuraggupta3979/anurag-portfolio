@@ -77,10 +77,9 @@ const Navigation = () => {
                     rel="noopener"
                     aria-label="mail"
                     className="nav-link-icon"
+                    href="tel:7232013979"
                   >
-                    <a href="tel:7232013979" className="mail-icon">
-                      <i class="fa fa-phone"></i> +91-7232013979
-                    </a>
+                    <i className="fa fa-phone"></i> +91-7232013979
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -88,17 +87,12 @@ const Navigation = () => {
                     rel="noopener"
                     aria-label="mail"
                     className="nav-link-icon"
-                    // href="anuraggupta3979.gmail.com"
+                    href="mailto: anuraggupta3979@gmail.com"
                   >
-                    <a
-                      href="mailto: anuraggupta3979@gmail.com"
-                      className="mail-icon"
-                    >
-                      <i class="fa fa-envelope-open"></i>
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        anuraggupta3979@gmail.com
-                      </span>
-                    </a>
+                    <i className="fa fa-envelope-open"></i>
+                    <span className="nav-link-inner--text d-lg-none ml-2">
+                      anuraggupta3979@gmail.com
+                    </span>
                   </NavLink>
                 </NavItem>
 

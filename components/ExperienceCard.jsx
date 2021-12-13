@@ -39,7 +39,7 @@ const ExperienceCard = ({ data }) => {
                 src={data.companylogo}
                 width={"100px"}
                 height={"100px"}
-                borderRadius={"100px"}
+                borderradius={"100px"}
                 className="imageCard"
                 alt={data.companylogo}
               />

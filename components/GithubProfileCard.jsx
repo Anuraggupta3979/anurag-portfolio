@@ -28,14 +28,15 @@ const GithubProfileCard = ({ prof }) => {
               </p>
               <hr />
               <a href="tel:7232013979" className="mail-icon mb-5">
-                <i class="fa fa-phone"></i> +91-7232013979
+                <i className="fa fa-phone"></i> +91-7232013979
               </a>
               <br />
               <a
                 href="mailto: anuraggupta3979@gmail.com"
                 className="mail-icon mt-5"
               >
-                <i class="fa fa-envelope-open"></i> anuraggupta3979@gmail.com
+                <i className="fa fa-envelope-open"></i>{" "}
+                anuraggupta3979@gmail.com
               </a>
               <hr />
               <SocialLinks></SocialLinks>
@@ -60,9 +61,7 @@ const GithubProfileCard = ({ prof }) => {
                   className="nav-link-icon "
                   style={{ marginLeft: "-13px" }}
                 >
-                  <a href="/" className="mail-icon ">
-                    <i class="fa fa-home"></i> HOME
-                  </a>
+                  <i className="fa fa-home"></i> HOME
                 </NavLink>
               </>
               <>
@@ -71,9 +70,7 @@ const GithubProfileCard = ({ prof }) => {
                   aria-label="mail"
                   className="nav-link-icon "
                 >
-                  <a href="/" className="mail-icon ">
-                    <i class="fa fa-file"></i> CERTIFICATES
-                  </a>
+                  <i className="fa fa-file"></i> CERTIFICATES
                 </NavLink>
               </>
             </Col>

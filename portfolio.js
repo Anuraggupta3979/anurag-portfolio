@@ -131,7 +131,7 @@ export const educationInfo = [
     descBullets: ["81%"],
   },
   {
-    schoolName: "Ashok Mahan School, Lalsot",
+    schoolName: "Ashok Mahan Sr. Sec. School, Lalsot",
     subHeader: "12th",
     duration: "July 2017 - April 2018",
     desc: "Board of Secondary Education, Rajasthan",
@@ -266,13 +266,7 @@ export const projects = [
     link: "https://anurag-gupta.ml",
     vector: "/img/icons/common/portfolio.png",
   },
-  // {
-  //   name: "Forkify",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  //   github: "https://anurag-gupta.ml",
-  //   link: "https://anurag-gupta.ml",
-  //   vector: "/img/icons/common/portfolio.png",
-  // },
+
   {
     name: "Foodmeel",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
