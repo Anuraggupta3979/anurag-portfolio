@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Col, Row, Container, NavItem, NavLink } from "reactstrap";
+import { Card, Col, Row, Container, NavLink } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 
@@ -10,8 +10,10 @@ const GithubProfileCard = ({ prof }) => {
       <Container className="">
         <div className="p-2">
           <Row className="">
-            <Col className="order-lg-1" lg="4">
-              <h5 style={{ color: "white" }}>Reach Out to Me</h5>
+            <Col className="order-lg-1 order-3" lg="4">
+              <h5 style={{ color: "white", marginTop: "30px" }}>
+                Reach Out to Me
+              </h5>
               <hr />
               <p style={{ color: "white" }}>
                 <a
@@ -38,13 +40,14 @@ const GithubProfileCard = ({ prof }) => {
               <hr />
               <SocialLinks></SocialLinks>
             </Col>
-            <Col className="order-lg-2" lg="1"></Col>
-            <Col className="order-lg-2" lg="3">
+            <Col className="order-lg-2 " lg="1"></Col>
+            <Col className="order-lg-2 order-2" lg="3">
               <h5
                 style={{
                   color: "white",
-                  textAlign: "center",
+                  // textAlign: "center",
                   //   fontFamily: "Augestina",
+                  marginTop: "30px",
                 }}
               >
                 More
@@ -54,31 +57,34 @@ const GithubProfileCard = ({ prof }) => {
                 <NavLink
                   rel="noopener"
                   aria-label="mail"
-                  className="nav-link-icon text-center"
+                  className="nav-link-icon "
+                  style={{ marginLeft: "-13px" }}
                 >
-                  <a href="/" className="mail-icon text-center">
+                  <a href="/" className="mail-icon ">
                     <i class="fa fa-home"></i> HOME
                   </a>
                 </NavLink>
               </>
-
-              <NavLink
-                rel="noopener"
-                aria-label="mail"
-                className="nav-link-icon text-center"
-              >
-                <a href="/" className="mail-icon">
-                  <i class="fa fa-file"></i> Certificates
-                </a>
-              </NavLink>
+              <>
+                <NavLink
+                  rel="noopener"
+                  aria-label="mail"
+                  className="nav-link-icon "
+                >
+                  <a href="/" className="mail-icon ">
+                    <i class="fa fa-file"></i> CERTIFICATES
+                  </a>
+                </NavLink>
+              </>
             </Col>
             <Col className="order-lg-2" lg="1"></Col>
-            <Col className="order-lg-2" lg="3">
+            <Col className="order-lg-2 order-1" lg="3">
               <h5
                 style={{
                   color: "white",
                   textAlign: "center",
                   fontFamily: "Augestina",
+                  marginTop: "30px",
                 }}
               >
                 That's Me
@@ -91,7 +97,7 @@ const GithubProfileCard = ({ prof }) => {
                 className="rounded-circle img-center   mb-4"
               />
               <h5 className="text-center mb-2">
-                <strong style={{ color: "white", }}>Anurag Gupta</strong>
+                <strong style={{ color: "white" }}>Anurag Gupta</strong>
               </h5>
               <p style={{ color: "white" }} className="text-center">
                 Full Stack Developer
