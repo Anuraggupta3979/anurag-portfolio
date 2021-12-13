@@ -20,12 +20,12 @@ const Projects = () => {
               <h4 className="display-3 text-info">Projects</h4>
             </div>
           </div>
-          <Row className="row-grid align-items-center">
-            {projects.map((pro, i) => {
-              return <ProjectsCard key={i} data={pro} />;
-            })}
-          </Row>
         </Fade>
+        <Row className="row-grid align-items-center">
+          {projects.map((data, i) => {
+            return <ProjectsCard key={i} data={data} />;
+          })}
+        </Row>
       </Container>
     </section>
   );
