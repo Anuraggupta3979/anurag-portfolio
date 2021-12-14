@@ -17,23 +17,29 @@ const GithubProfileCard = ({ prof }) => {
               <hr />
               <p style={{ color: "white" }}>
                 <a
+                  style={{ color: "white" }}
                   className="mail-icon"
                   href="https://www.google.co.in/maps/place/New+Colony,+Lalsot,+Rajasthan+303503/@26.5607949,76.3250372,18z/data=!3m1!4b1!4m5!3m4!1s0x396dfc524afec21f:0x956da7d6c2a6b175!8m2!3d26.5608457!4d76.3264611"
                   target="_blank"
                 >
                   {/* {prof.location} */}
                   <i className="ni ni-pin-3  mr-2" /> Behind Rest House, New
-                  Colony Lalsot, 303503, Rajasthan
+                  Colony Lalsot, Dausa 303503, Rajasthan
                 </a>
               </p>
               <hr />
-              <a href="tel:7232013979" className="mail-icon mb-5">
+              <a
+                href="tel:7232013979"
+                style={{ color: "white" }}
+                className="mail-icon mb-5"
+              >
                 <i className="fa fa-phone"></i> +91-7232013979
               </a>
               <br />
               <a
                 href="mailto: anuraggupta3979@gmail.com"
                 className="mail-icon mt-5"
+                style={{ color: "white" }}
               >
                 <i className="fa fa-envelope-open"></i>{" "}
                 anuraggupta3979@gmail.com
@@ -54,25 +60,24 @@ const GithubProfileCard = ({ prof }) => {
                 More
               </h5>
               <hr />
-              <>
-                <NavLink
-                  rel="noopener"
-                  aria-label="mail"
-                  className="nav-link-icon "
-                  style={{ marginLeft: "-13px" }}
+              <div>
+                <a
+                  href="/"
+                  className="mail-icon mt-5"
+                  style={{ color: "white" }}
                 >
                   <i className="fa fa-home"></i> HOME
-                </NavLink>
-              </>
-              <>
-                <NavLink
-                  rel="noopener"
-                  aria-label="mail"
-                  className="nav-link-icon "
+                </a>
+              </div>
+              <div>
+                <a
+                  href="/"
+                  className="mail-icon mt-5"
+                  style={{ color: "white" }}
                 >
                   <i className="fa fa-file"></i> CERTIFICATES
-                </NavLink>
-              </>
+                </a>
+              </div>
             </Col>
             <Col className="order-lg-2" lg="1"></Col>
             <Col className="order-lg-2 order-1" lg="3">

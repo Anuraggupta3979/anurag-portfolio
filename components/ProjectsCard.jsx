@@ -11,7 +11,12 @@ const ProjectsCard = ({ data }) => {
               <h3>{data.name}</h3>
               <img src={data.vector} alt="ProjectImage" className="card-img" />
               <p className="description mt-3">{data.description}</p>
-
+              {data.features ? (
+                <p className="description mt-3">Features : {data.features}</p>
+              ) : null}
+              {data.tech ? (
+                <p className="description mt-3">Tech : {data.tech}</p>
+              ) : null}
               {data.github ? (
                 <Button
                   className="btn-icon"

@@ -23,8 +23,8 @@ export const socialLinks = {
 };
 
 export const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Tech Skills",
+  subTitle: "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -177,13 +177,13 @@ export const experience = [
 
 export const feedbacks = [
   {
-    name: "Anurag Gupta",
+    name: "The CraftJet",
     feedback:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
   },
   {
-    name: "Piyush Gupta",
+    name: "MBM University Website",
     feedback:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+      "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
   },
 ];
