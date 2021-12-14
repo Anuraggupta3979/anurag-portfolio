@@ -13,7 +13,7 @@ import {
 import Color from "color-thief-react";
 
 import { Fade } from "react-reveal";
-import Image from "next/image";
+// import Image from "next/image";
 
 const ExperienceCard = ({ data }) => {
   return (
@@ -33,16 +33,25 @@ const ExperienceCard = ({ data }) => {
           <CardBody className="py-5">
             <div
               className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-              style={{ width: "100px", height: "100px", borderRadius: "100px" }}
+              style={{
+                width: "100px",
+                height: "100px",
+                borderRadius: "100px",
+                // border: "2px solid red",
+                backgroundImage: `url(${data.companylogo})`,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
             >
-              <Image
+              {/* <Image
                 src={data.companylogo}
                 width={"100px"}
                 height={"100px"}
-                borderradius={"100px"}
+                borderRadius={"100px"}
                 className="imageCard"
                 alt={data.companylogo}
-              />
+              /> */}
             </div>
             <CardTitle tag="h5">{data.role}</CardTitle>
             <CardSubtitle>{data.date}</CardSubtitle>
