@@ -1,16 +1,15 @@
 import React from "react";
 import { Card, CardBody, Badge } from "reactstrap";
 
-import { Fade } from "react-reveal";
-
-const FeedbackCard = ({ data }) => {
+const CertificateCard = ({ data }) => {
   return (
     <Card className="card-lift--hover shadow mt-4">
       <CardBody>
-        <div className="d-flex px-3">
-          <div className="pl-4">
+        <div className="d-flex ">
+          <div className="">
             <h5 className="text-info">{data.name}</h5>
-            <p className="description mt-3">{data.feedback}</p>
+            <hr style={{ marginTop: "0px", marginBottom: "10px" }} />
+            <img src={data.certificate} alt="" className="card-img" />
           </div>
         </div>
       </CardBody>
@@ -18,4 +17,4 @@ const FeedbackCard = ({ data }) => {
   );
 };
 
-export default FeedbackCard;
+export default CertificateCard;

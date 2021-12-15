@@ -71,7 +71,7 @@ const GithubProfileCard = ({ prof }) => {
               </div>
               <div>
                 <a
-                  href="/"
+                  href="/certificate"
                   className="mail-icon mt-5"
                   style={{ color: "white" }}
                 >
@@ -93,8 +93,8 @@ const GithubProfileCard = ({ prof }) => {
               </h5>
               <hr />
               <img
-                src={prof.avatar_url}
-                style={{ width: "200px" }}
+                src="https://res.cloudinary.com/anuraggupta/image/upload/v1639546207/913_ujszio.jpg"
+                style={{ width: "200px", height: "200px" }}
                 alt=""
                 className="rounded-circle img-center   mb-4"
               />

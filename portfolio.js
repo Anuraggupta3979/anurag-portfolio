@@ -24,7 +24,8 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "Tech Skills",
-  subTitle: "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -177,7 +178,7 @@ export const experience = [
 
 export const feedbacks = [
   {
-    name: "The CraftJet",
+    name: "BootCamp",
     feedback:
       "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
   },
@@ -185,5 +186,119 @@ export const feedbacks = [
     name: "MBM University Website",
     feedback:
       "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+  },
+];
+
+export const certificate = [
+  {
+    name: "MBM Photography",
+    certificate: "/img/icons/certificate/photography-MBM.jpg",
+  },
+  {
+    name: "Mechmania 1.0",
+    certificate: "/img/icons/certificate/mechmania1.0.jpg",
+  },
+  {
+    name: "Udemy JavaScript",
+    certificate: "/img/icons/certificate/udemyJs.jpg",
+  },
+  {
+    name: "Udemy Reactjs",
+    certificate: "/img/icons/certificate/udemyReact.jpg",
+  },
+  {
+    name: "Udemy Nodejs",
+    certificate: "/img/icons/certificate/udemyNode.jpg",
+  },
+  {
+    name: "IIT Roorkee",
+    certificate: "/img/icons/certificate/iitrookee.jpg",
+  },
+  {
+    name: "Sololearn HTML",
+    certificate: "/img/icons/certificate/sololearn-html.jpeg",
+  },
+  {
+    name: "Sololearn CSS",
+    certificate: "/img/icons/certificate/sololearn-css.jpeg",
+  },
+  {
+    name: "Sololearn JavaScript",
+    certificate: "/img/icons/certificate/sololearn-javascript.jpeg",
+  },
+  {
+    name: "Sololearn SQL",
+    certificate: "/img/icons/certificate/sololearn-sql.jpeg",
+  },
+
+  {
+    name: "Sololearn Web Design",
+    certificate: "/img/icons/certificate/sololearn-webdesign.jpeg",
+  },
+  {
+    name: "Sololearn C",
+    certificate: "/img/icons/certificate/sololearn-c.jpeg",
+  },
+
+  {
+    name: "Sololearn CPP",
+    certificate: "/img/icons/certificate/sololearn-c++.jpeg",
+  },
+
+  {
+    name: "TPO MBM",
+    certificate: "/img/icons/certificate/tpo_mbm.jpg",
+  },
+
+  {
+    name: "DSC MBM",
+    certificate: "/img/icons/certificate/dsca.jpg",
+  },
+  {
+    name: "DSC MBM",
+    certificate: "/img/icons/certificate/dscp.png",
+  },
+  {
+    name: "Cyber Security BootCamp",
+    certificate: "/img/icons/certificate/cyber.jpg",
+  },
+
+  {
+    name: "BootCamp",
+    certificate: "/img/icons/certificate/sdd.jpg",
+  },
+
+  {
+    name: "BootCamp",
+    certificate: "/img/icons/certificate/sjr2.jpg",
+  },
+  {
+    name: "BootCamp",
+    certificate: "/img/icons/certificate/sjr3.jpg",
+  },
+  {
+    name: "BootCamp",
+    certificate: "/img/icons/certificate/sjr4.jpg",
+  },
+  {
+    name: "BootCamp",
+    certificate: "/img/icons/certificate/sp.jpg",
+  },
+  {
+    name: "Certificate",
+    certificate: "/img/icons/certificate/data.jpg",
+  },
+  {
+    name: "Certificate",
+    certificate: "/img/icons/certificate/python.jpg",
+  },
+
+  {
+    name: "Certificate",
+    certificate: "/img/icons/certificate/mind.jpg",
+  },
+  {
+    name: "Certificate",
+    certificate: "/img/icons/certificate/workshop.jpg",
   },
 ];

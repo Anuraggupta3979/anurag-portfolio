@@ -1,10 +1,10 @@
-import { feedbacks } from "../portfolio";
+import { certificate } from "../portfolio";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import FeedbackCard from "../components/FeedbackCard";
+import CertificateCard from "../components/CertificateCard";
 import { Fade } from "react-reveal";
 
-const Feedbacks = () => {
+const Certificate = () => {
   return (
     <section className="section section-lg">
       <Container>
@@ -16,15 +16,15 @@ const Feedbacks = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Freelancing Projects</h4>
+              <h4 className="display-3 text-info">Certificates</h4>
             </div>
           </div>
         </Fade>
         <Row className="row-grid align-items-center">
-          {feedbacks.map((data, i) => {
+          {certificate.map((data, i) => {
             return (
               <Col key={i} lg={6}>
-                <FeedbackCard data={data} />
+                <CertificateCard data={data} />
               </Col>
             );
           })}
@@ -34,4 +34,4 @@ const Feedbacks = () => {
   );
 };
 
-export default Feedbacks;
+export default Certificate;
