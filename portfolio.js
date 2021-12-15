@@ -259,7 +259,7 @@ export const certificate = [
   },
   {
     name: "Sololearn SQL",
-    certificate: "/img/icons/certificate/sololearn-sql.jpeg",
+    certificate: "/img/icons/certificate/sql.jpeg",
   },
 
   {
