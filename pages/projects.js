@@ -8,13 +8,14 @@ const GithubProfileCard = dynamic(() =>
 );
 import SEO from "../components/SEO";
 import { projects } from "../projects";
+import { Button } from "reactstrap";
 const Projects = dynamic(() => import("../containers/Projects"));
-function projects({ githubProfileData }) {
+function project({ githubProfileData }) {
   return (
     <div>
       <SEO
         data={{
-          title: "Certificate",
+          title: "Projects",
           description:
             "A passionate Full Stack Web Developer and Mobile App Developer.",
           image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
@@ -45,9 +46,10 @@ function projects({ githubProfileData }) {
       <Navigation />
       {/* <Greetings /> */}
       <Projects projects={projects} />
+      
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );
 }
 
-export default projects;
+export default project;

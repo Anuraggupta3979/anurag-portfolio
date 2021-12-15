@@ -14,6 +14,7 @@ const GithubProfileCard = dynamic(() =>
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { projects } from "../portfolio";
+import { Container, Row, Button } from "reactstrap";
 export default function Home({ githubProfileData }) {
   return (
     <div>
@@ -55,6 +56,23 @@ export default function Home({ githubProfileData }) {
       <Experience />
       <Feedbacks />
       <Projects projects={projects} />
+      <Container>
+        <Row className="d-flex">
+          <Button
+            className="btn-icon"
+            color="success"
+            href="/projects"
+            // target="_blank"
+            style={{
+              width: "200px",
+              margin: "auto",
+              marginBottom: "100px",
+            }}
+          >
+            Explore More
+          </Button>
+        </Row>
+      </Container>
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );

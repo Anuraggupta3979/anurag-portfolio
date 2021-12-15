@@ -1,8 +1,5 @@
 import React from "react";
-import { Card, CardBody, Badge, Button } from "reactstrap";
-
-import { Fade } from "react-reveal";
-
+import { Card, CardBody, Button } from "reactstrap";
 const FeedbackCard = ({ data }) => {
   return (
     <Card className="card-lift--hover shadow mt-4">
