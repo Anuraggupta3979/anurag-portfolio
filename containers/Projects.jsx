@@ -1,11 +1,11 @@
 import React from "react";
 
-import { projects } from "../projects";
+
 import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 import { Fade } from "react-reveal";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <section className="section section-lg">
       <Container>
@@ -22,7 +22,7 @@ const Projects = () => {
           </div>
         </Fade>
         <Row className="row-grid align-items-center">
-          {projects.map((data, i) => {
+          {props.projects.map((data, i) => {
             return <ProjectsCard key={i} data={data} />;
           })}
         </Row>

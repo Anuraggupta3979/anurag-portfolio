@@ -1,25 +1,20 @@
+import React from "react";
 import dynamic from "next/dynamic";
-import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
-const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
-const Education = dynamic(() => import("../containers/Education"));
-const Experience = dynamic(() => import("../containers/Experience"));
-const Projects = dynamic(() => import("../containers/Projects"));
-const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
+const Certificate = dynamic(() => import("../containers/Certificate"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
-import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
-import { projects } from "../portfolio";
-export default function Home({ githubProfileData }) {
+import { projects } from "../projects";
+const Projects = dynamic(() => import("../containers/Projects"));
+function projects({ githubProfileData }) {
   return (
     <div>
       <SEO
         data={{
-          title: "Anurag Gupta",
+          title: "Certificate",
           description:
             "A passionate Full Stack Web Developer and Mobile App Developer.",
           image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
@@ -48,28 +43,11 @@ export default function Home({ githubProfileData }) {
         }}
       />
       <Navigation />
-      <Greetings />
-      <Skills />
-      <Proficiency />
-      <Education />
-      <Experience />
-      <Feedbacks />
+      {/* <Greetings /> */}
       <Projects projects={projects} />
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );
 }
 
-Home.prototype = {
-  githubProfileData: PropTypes.object.isRequired,
-};
-
-export async function getStaticProps(_) {
-  const githubProfileData = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then((res) => res.json());
-
-  return {
-    props: { githubProfileData },
-  };
-}
+export default projects;

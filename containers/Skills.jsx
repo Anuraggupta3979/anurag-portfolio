@@ -17,7 +17,7 @@ const Skills = () => {
 						<DisplayLottie animationPath="/lottie/webdev.json" />
 					</Col>
 					<Col lg="6">
-						<div className="d-flex justify-content-center flex-wrap mb-5">
+						<div className="d-flex justify-content-center flex-wrap mb-1">
 							{skillsSection.softwareSkills.map((skill) => {
 								return (
 									<Fragment key={skill.skillName}>
@@ -46,7 +46,7 @@ const Skills = () => {
 						</div>
 						<div>
 							{skillsSection.skills.map((skill) => {
-								return <p key={skill}>{skill}</p>;
+								return <p style={{textAlign:"justify"}} key={skill}>{skill}</p>;
 							})}
 						</div>
 					</Col>

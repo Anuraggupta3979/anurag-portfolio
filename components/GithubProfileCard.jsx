@@ -71,6 +71,15 @@ const GithubProfileCard = ({ prof }) => {
               </div>
               <div>
                 <a
+                  href="/projects"
+                  className="mail-icon mt-5"
+                  style={{ color: "white" }}
+                >
+                  <i className="fa fa-file"></i> PROJECTS
+                </a>
+              </div>
+              <div>
+                <a
                   href="/certificate"
                   className="mail-icon mt-5"
                   style={{ color: "white" }}

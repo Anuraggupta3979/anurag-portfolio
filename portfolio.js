@@ -28,12 +28,17 @@ export const skillsSection = {
     "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡Frontend : HTML5, CSS, JavaScript, Sass, Bootstrap, React Bootstrap, Material UI, Ant Design, Styled Components, Reactjs, Redux, React Router , React Hooks "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡Backend: NodeJs Express"),
+    emoji("⚡Databases : MongoDb, MySQL, Firebase"),
+
+    emoji("⚡Version Control : GIT"),
+
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡Hosting Platforms : Firebase, Vercel, Digital Ocean, Github Pages, Heroku"
     ),
+    emoji("⚡Programming Language : C, CPP, Python, JavaScript, TypeScript"),
   ],
 
   softwareSkills: [
@@ -178,14 +183,40 @@ export const experience = [
 
 export const feedbacks = [
   {
-    name: "BootCamp",
+    name: "CodeChef",
+    vector: "/img/icons/common/codechef.png",
+    link: "https://www.codechef.com/users/anurag3979",
     feedback:
       "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
   },
   {
-    name: "MBM University Website",
+    name: "HackerRank",
+    vector: "/img/icons/common/hackerrank.png",
+    link: "https://www.hackerrank.com/anuraggupta3979",
     feedback:
       "We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Anurag Gupta has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+  },
+];
+export const projects = [
+  {
+    name: "MBM University Website",
+    description:
+      "This is MBM University Website Created with Nextjs, Material Ui, Bootstrap ",
+    features: "All About MBM University",
+    tech: "HTML, CSS, React, Next, Material UI, Bootstrap",
+    github: "https://github.com/mbm-jodhpur/mbm_website",
+    link: "https://anurag-gupta.ml/",
+    vector: "/img/icons/common/mbm.png",
+  },
+  {
+    name: "PortFolio",
+    description:
+      "This is My Portfolio Website Created with Nextjs, Material Ui, Bootstrap ",
+    features: "My projects , about , contact and certificates",
+    tech: "HTML, CSS, React, Material UI,Bootstrap, Vercel",
+    github: "https://github.com/Anuraggupta3979/anurag-portfolio",
+    link: "https://anurag-gupta.ml/",
+    vector: "/img/icons/common/portfolio.png",
   },
 ];
 

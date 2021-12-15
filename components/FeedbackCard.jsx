@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardBody, Badge } from "reactstrap";
+import { Card, CardBody, Badge, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
@@ -10,7 +10,25 @@ const FeedbackCard = ({ data }) => {
         <div className="d-flex px-3">
           <div className="pl-4">
             <h5 className="text-info">{data.name}</h5>
-            <p className="description mt-3">{data.feedback}</p>
+            <img src={data.vector} alt="" className="card-img" />
+            {/* <p className="description mt-3">{data.feedback}</p> */}
+            <div className="mt-2">
+              <Button
+                className="btn-icon"
+                color="success"
+                href={data.link}
+                target="_blank"
+                rel="noopener"
+                aria-label="Twitter"
+              >
+                <span className="btn-inner--icon">
+                  <i className="fa fa-arrow-right mr-2" />
+                </span>
+                <span className="nav-link-inner--text ml-1">
+                  <i className="fa fa-chrome mr-2" />
+                </span>
+              </Button>
+            </div>
           </div>
         </div>
       </CardBody>

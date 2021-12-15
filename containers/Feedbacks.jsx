@@ -16,7 +16,7 @@ const Feedbacks = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Freelancing Projects</h4>
+              <h4 className="display-3 text-info">Coding Plateforms</h4>
             </div>
           </div>
         </Fade>

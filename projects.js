@@ -209,15 +209,16 @@ export const projects = [
     vector: "/img/icons/common/weather.png",
   },
   {
-    name: "Love Calculator",
+    name: "Dicazo Coaching Institute",
     description:
-      "This is Love Calculator  Website Created with HTML, CSS, JavaScript",
-    features: "You can calculate love",
+      "This is Dicazo Coaching Institute Website Created with HTML, CSS, JavaScript ",
+    features: "All about Dicazo Coaching Institute",
     tech: "HTML, CSS, JavaScript",
-    github: "https://github.com/Anuraggupta3979/lovecalculator.github.io",
-    link: "https://anuraggupta3979.github.io/lovecalculator.github.io/",
-    vector: "/img/icons/common/love.png",
+    github: "https://github.com/Anuraggupta3979/dicazoInstitute.github.io",
+    link: "https://anuraggupta3979.github.io/dicazoInstitute.github.io/",
+    vector: "/img/icons/common/dicazo.png",
   },
+
   {
     name: "Dance Academy",
     description:
@@ -237,6 +238,16 @@ export const projects = [
     vector: "/img/icons/common/gym.png",
   },
   {
+    name: "Love Calculator",
+    description:
+      "This is Love Calculator  Website Created with HTML, CSS, JavaScript",
+    features: "You can calculate love",
+    tech: "HTML, CSS, JavaScript",
+    github: "https://github.com/Anuraggupta3979/lovecalculator.github.io",
+    link: "https://anuraggupta3979.github.io/lovecalculator.github.io/",
+    vector: "/img/icons/common/love.png",
+  },
+  {
     name: "Calculator",
     description:
       "This is Calculator Website Created with HTML, CSS, JavaScript, Bootstrap",
@@ -245,15 +256,5 @@ export const projects = [
     github: "https://github.com/Anuraggupta3979/calculator.github.io",
     link: "https://anuraggupta3979.github.io/calculator.github.io/",
     vector: "/img/icons/common/calculator.png",
-  },
-  {
-    name: "Dicazo Coaching Institute",
-    description:
-      "This is Dicazo Coaching Institute Website Created with HTML, CSS, JavaScript ",
-    features: "All about Dicazo Coaching Institute",
-    tech: "HTML, CSS, JavaScript",
-    github: "https://github.com/Anuraggupta3979/dicazoInstitute.github.io",
-    link: "https://anuraggupta3979.github.io/dicazoInstitute.github.io/",
-    vector: "/img/icons/common/dicazo.png",
   },
 ];

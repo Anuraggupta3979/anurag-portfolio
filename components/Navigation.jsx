@@ -167,6 +167,35 @@ const Navigation = () => {
                     Twitter
                   </span>
                 </NavLink>
+                <div className="nav-link-inner--text d-lg-none ">
+                  <NavLink
+                    rel="noopener"
+                    aria-label="Twitter"
+                    className="nav-link-icon"
+                    href="/"
+                    target="_blank"
+                  >
+                    <i className="fa fa-home" /> Home
+                  </NavLink>
+                  <NavLink
+                    rel="noopener"
+                    aria-label="Twitter"
+                    className="nav-link-icon"
+                    href="/projects"
+                    target="_blank"
+                  >
+                    <i className="fa fa-star" /> Projects
+                  </NavLink>
+                  <NavLink
+                    rel="noopener"
+                    aria-label="Twitter"
+                    className="nav-link-icon"
+                    href="/certificate"
+                    target="_blank"
+                  >
+                    <i className="fa fa-file" /> Certificate
+                  </NavLink>
+                </div>
               </Nav>
             </UncontrolledCollapse>
           </Container>
