@@ -4,7 +4,7 @@ export const greetings = {
   name: "Anurag Gupta",
   title: "Hi all, I'm Anurag",
   description:
-    "A passionate Full Stack Web Developer and React Native Mobile App Developer having an experience of building Web applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / Bootstrap / Material UI / Ant Design and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
+    "A passionate Full Stack Web Developer and React Native Mobile App Developer having an experience of building Web applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
   resumeLink: "#",
 };
 
@@ -28,7 +28,7 @@ export const skillsSection = {
     "I AM A CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡Frontend : HTML5, CSS, JavaScript, Sass, Bootstrap, React Bootstrap, Material UI, Ant Design, Styled Components, Reactjs, Redux, React Router , React Hooks "
+      "⚡Frontend : HTML5, CSS, JavaScript, Sass, Bootstrap, React Bootstrap, Material UI, Ant Design,Tailwind, Styled Components, Reactjs, Redux, React Router , React Hooks, Webflow"
     ),
     emoji("⚡Backend: NodeJs Express"),
     emoji("⚡Databases : MongoDb, MySQL, Firebase"),
@@ -51,9 +51,14 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-css",
     },
     {
+      skillName: "tailwind",
+      fontAwesomeClassname: "vscode-icons:file-type-tailwind",
+    },
+    {
       skillName: "sass",
       fontAwesomeClassname: "logos:sass",
     },
+   
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "logos:javascript",
