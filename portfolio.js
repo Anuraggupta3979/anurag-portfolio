@@ -4,7 +4,7 @@ export const greetings = {
   name: "Anurag Gupta",
   title: "Hi all, I'm Anurag",
   description:
-    "A passionate Full Stack Web Developer and React Native Mobile App Developer having an experience of building Web applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
+    "A passionate Full Stack Web Developer and React Native Flutter Mobile App Developer having an experience of building  applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / React Native / Flutter / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
   resumeLink: "#",
 };
 
@@ -58,7 +58,7 @@ export const skillsSection = {
       skillName: "sass",
       fontAwesomeClassname: "logos:sass",
     },
-   
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "logos:javascript",
