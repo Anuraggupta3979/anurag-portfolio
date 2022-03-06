@@ -71,6 +71,7 @@ export const skillsSection = {
       skillName: "reactjs",
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
+
     {
       skillName: "nodejs",
       fontAwesomeClassname: "logos:nodejs-icon",
@@ -78,6 +79,14 @@ export const skillsSection = {
     {
       skillName: "flutter",
       fontAwesomeClassname: "logos:flutter",
+    },
+    {
+      skillName: "React-Native",
+      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+    },
+    {
+      skillName: "Elixir",
+      fontAwesomeClassname: "vscode-icons:file-type-elixir",
     },
     // {
     //   skillName: "swift",
@@ -241,6 +250,11 @@ export const certificate = [
   {
     name: "Udemy Reactjs",
     certificate: "/img/icons/certificate/udemyReact.jpg",
+  },
+
+  {
+    name: "Udemy React Native",
+    certificate: "/img/icons/certificate/reactnative.jpg",
   },
   {
     name: "Udemy Nodejs",

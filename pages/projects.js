@@ -2,7 +2,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
-const Certificate = dynamic(() => import("../containers/Certificate"));
+// const Certificate = dynamic(() => import("../containers/Certificate"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
@@ -44,9 +44,9 @@ function project({ githubProfileData }) {
         }}
       />
       <Navigation />
-      {/* <Greetings /> */}
+      <Greetings />
       <Projects projects={projects} />
-      
+
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );
