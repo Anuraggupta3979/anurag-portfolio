@@ -193,6 +193,13 @@ export const experience = [
     date: "Jan 2021 – Sep 2021",
     desc: "Lorem ipsum dolor sit amet,   labore et dolore magna aliqua. Lorem consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
   },
+  {
+    role: "i organised a 4-Day Webd BootCamp",
+    company: "DSC",
+    companylogo: "/img/icons/common/webd.jpg",
+    date: "1 Oct 2021 – 4 Oct 2021",
+    desc: "In this bootcamp i taught HTML, CSS, JavaScript in detail with hand on practice. I  developed a wether app live in this bootcamp. I taughthow to use how to make a project , how to use CSS and Javascript, how to use an api, how to fetch an api and all. ",
+  },
 ];
 
 export const feedbacks = [

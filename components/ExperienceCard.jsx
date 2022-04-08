@@ -17,7 +17,7 @@ import { Fade } from "react-reveal";
 
 const ExperienceCard = ({ data }) => {
   return (
-    <Col lg="4">
+    <Col lg="4" className="justify-content-center  pt-5 mx-auto my-auto">
       <Fade left duration={1000} distance="40px">
         <Card
           style={{ flex: 1 }}
