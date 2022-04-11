@@ -1,10 +1,10 @@
 {
-  "name": "developer-portfolio",
+  "name": "anurag-portfolio",
   "version": "1.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+  "description": "A passionate Full Stack Web Developer and React Native & Flutter Mobile App Developer having an experience of building  applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / React Native / Flutter / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "repository": "https://github.com/Anuraggupta3979/anurag-portfolio",
+  "author": "Anurag Gupta",
   "license": "MIT",
   "scripts": {
     "dev": "next dev -p 3001",

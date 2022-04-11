@@ -18,7 +18,7 @@ function project({ githubProfileData }) {
           title: "Projects",
           description:
             "A passionate Full Stack Web Developer and Mobile App Developer.",
-          image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+          image: "https://avatars.githubusercontent.com/u/75747708?v=4",
           url: "www.anurag-gupta.ml",
           keywords: [
             "Anurag",
