@@ -5,6 +5,7 @@ import { Card, Col, Row, Container, NavLink } from "reactstrap";
 import SocialLinks from "../components/SocialLinks";
 
 const GithubProfileCard = ({ prof }) => {
+  console.log(prof);
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
@@ -102,7 +103,11 @@ const GithubProfileCard = ({ prof }) => {
               </h5>
               <hr />
               <img
-                src="https://res.cloudinary.com/anuraggupta/image/upload/v1639546207/913_ujszio.jpg"
+                src={
+                  prof?.avatar_url
+                    ? prof.avatar_url
+                    : "https://res.cloudinary.com/anuraggupta/image/upload/v1639546207/913_ujszio.jpg"
+                }
                 style={{ width: "200px", height: "200px" }}
                 alt=""
                 className="rounded-circle img-center   mb-4"

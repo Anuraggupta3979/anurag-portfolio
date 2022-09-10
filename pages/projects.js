@@ -6,6 +6,7 @@ const Greetings = dynamic(() => import("../containers/Greetings"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
+import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import { projects } from "../projects";
 import { Button } from "reactstrap";
@@ -53,3 +54,16 @@ function project({ githubProfileData }) {
 }
 
 export default project;
+project.prototype = {
+  githubProfileData: PropTypes.object.isRequired,
+};
+
+export async function getStaticProps(_) {
+  const githubProfileData = await fetch(
+    `https://api.github.com/users/Anuraggupta3979`
+  ).then((res) => res.json());
+
+  return {
+    props: { githubProfileData },
+  };
+}

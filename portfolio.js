@@ -5,7 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Anurag",
   description:
     "Hi all, I'm Anurag Gupta, A passionate Full Stack Web Developer and React Native & Flutter Mobile App Developer having an experience of building  applications with HTML / CSS / JavaScript / Reactjs / Nextjs / Nodejs / React Native / Flutter / Bootstrap / Material UI / Tailwind / Ant Design / Webflow and some other cool libraries and frameworks and Databases (MongoDB, SQL, Firebase..)",
-  resumeLink: "#",
+  resumeLink: "/img/icons/common/resume-anurag-2022.pdf",
 };
 
 export const openSource = {
@@ -242,6 +242,19 @@ export const projects = [
 ];
 
 export const certificate = [
+  {
+    name: "Full Stack Developer Intern at PropReturns",
+    certificate: "/img/icons/certificate/prop.jpg",
+  },
+  {
+    name: "Certificate of Appreciation (DSC MBM)",
+    certificate: "/img/icons/certificate/anuragdsc.png",
+  },
+  {
+    name: "SDE Intern at CreateBytes",
+    certificate: "/img/icons/certificate/cb.jpg",
+  },
+
   {
     name: "MBM Photography",
     certificate: "/img/icons/certificate/photography-MBM.jpg",

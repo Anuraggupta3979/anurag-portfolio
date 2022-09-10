@@ -84,7 +84,7 @@ Home.prototype = {
 
 export async function getStaticProps(_) {
   const githubProfileData = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
+    `https://api.github.com/users/Anuraggupta3979`
   ).then((res) => res.json());
 
   return {
