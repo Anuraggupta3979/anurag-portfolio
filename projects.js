@@ -6,7 +6,7 @@ export const projects = [
     features: "All About MBM University",
     tech: "HTML, CSS, React, Next, Material UI, Bootstrap",
     github: "https://github.com/mbm-jodhpur/mbm_website",
-    link: "https://anurag-gupta.ml/",
+    link: "http://43.231.127.200:3050/",
     vector: "/img/icons/common/mbm.png",
   },
   {
